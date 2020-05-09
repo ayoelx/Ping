@@ -1,0 +1,140 @@
+/* ROOT */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 20px;
+    font-family: 'Libre Franklin', serif;
+    text-align: center;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* HEADER */
+
+header {
+    margin: 50px 0 40px;
+}
+
+h2.heading {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.period {
+    color: hsl(223, 87%, 63%);
+}
+
+
+/* MAIN */
+
+main h1 {
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+    font-size: 1.8em;
+}
+
+main .exclaim {
+    color: black;
+    font-weight: 600;
+}
+
+h4 {
+    font-weight: 300;
+    font-size: .9em;
+    margin: 15px;
+}
+
+img {
+    width: 490px;
+    height: auto;
+    margin: 30px;
+}
+
+/* INPUT */
+
+.input {
+    margin: 25px;
+}
+
+#userEmail {
+    border-radius: 30px;
+    border: solid 1px hsl(0, 0%, 80%);
+    padding: 13px 150px 13px 20px;
+}
+
+#btn {
+    border-radius: 50px;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    padding: 13px 40px;
+    margin-left: 15px;
+    border-style: none;
+    box-shadow: 0 3px 10px hsl(223, 100%, 88%);
+}
+
+::placeholder {
+    color: hsl(0, 0%, 80%);
+}
+
+
+/* FOOTER */
+
+footer {
+    margin-bottom: 40px;
+}
+
+.icons {
+    margin: 40px;
+}
+
+.facebook,
+.instagram,
+.twitter {
+    color: hsl(223, 87%, 63%);
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 100%;
+    margin: 10px;
+    transition: linear 500ms;
+    cursor: pointer;
+}
+
+.facebook {
+    padding: 10px 15px;
+}
+
+.twitter {
+    padding: 10px 12px;
+}
+
+.instagram {
+    padding: 10px 13px;     
+}
+
+.facebook:hover,
+.twitter:hover,
+.instagram:hover {
+    color: white;
+    background-color: hsl(223, 87%, 63%);
+    border: 1px solid hsl(223, 87%, 63%);
+}
+
+small {
+    color: hsl(0, 0%, 70%);
+    font-weight: 300;
+    font-size: .75em;
+}
+
+/* BOTTOM */
+
