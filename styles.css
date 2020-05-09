@@ -72,16 +72,32 @@ img {
     border-radius: 30px;
     border: solid 1px hsl(0, 0%, 80%);
     padding: 13px 150px 13px 20px;
+    outline: none;
 }
 
 #btn {
     border-radius: 50px;
     background-color: hsl(223, 87%, 63%);
     color: white;
+    letter-spacing: .05em;
     padding: 13px 40px;
     margin-left: 15px;
     border-style: none;
     box-shadow: 0 3px 10px hsl(223, 100%, 88%);
+    transition: linear 200ms;
+    cursor: pointer;
+    outline: none;
+}
+
+#btn:hover {
+    background-color: white;
+    color: hsl(223, 87%, 63%);
+}
+
+#btn:active {
+    font-size: 0.8em;
+    padding: 11px 34px;
+    border: none;
 }
 
 ::placeholder {
