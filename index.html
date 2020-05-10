@@ -8,7 +8,8 @@
   <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-replace-svg="nest"></script>
 
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;500;600;700&display=swap" rel="stylesheet">
-  <title>Ping |   coming soon page</title>
+  <title>Ping | coming soon page</title>
+  <script src="index.js" defer></script>
 
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -23,7 +24,9 @@
     <h4>Subscribe and get notified</h4>
 
     <div class="input">
-      <input type="text" name="email" id="userEmail" placeholder="Your email address...">
+      <input type="email" name="email" id="userEmail" placeholder="Your email address..." autocomplete="off">
+      <!-- <p id="invalid-prompt"></p> --> <!-- invalid prompt to be displayed to the user after validation-->
+      
       <input type="button" value="Notify Me" id="btn">
     </div>
 
