@@ -9,6 +9,7 @@ body {
     font-size: 20px;
     font-family: 'Libre Franklin', serif;
     text-align: center;
+    user-select: none;
 }
 
 .attribution {
