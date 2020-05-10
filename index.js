@@ -16,18 +16,21 @@ function validateEmail(email) {
 }   
 
 function result() {
-    if (validateEmail(userEmail.value)) {
-        if (userEmail.classList.contains('invalid')) {
-            userEmail.classList.remove('invalid');
-            prompt.innerText = '';
-            console.log('Invalid class removed');
+    if (userEmail.value) {
+        if (validateEmail(userEmail.value)) {
+            if (userEmail.classList.contains('invalid')) {
+                userEmail.classList.remove('invalid');
+                prompt.innerText = '';
+                console.log('Invalid class removed');
+            }
+            //pass
+        } else if (!userEmail.classList.contains('invalid')) {
+            userEmail.classList.add('invalid');
+            prompt.innerText = 'Please provide a valid email address';
+            console.log('Invalid class added!');
         }
-        //pass
-    } else if (!userEmail.classList.contains('invalid')){
-        userEmail.classList.add('invalid');
-        prompt.innerText = 'Please provide a valid email address';
-        console.log('Invalid class added!')
     }
+    
 }
 
 userEmail.addEventListener("focusout", result)
