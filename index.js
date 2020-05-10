@@ -4,7 +4,6 @@ let prompt = undefined;
 
 if (window.innerWidth < 550) {
     prompt = document.getElementById('invalid-prompt');
-    alert('small');
 }
 
 let reg = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
