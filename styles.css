@@ -70,6 +70,7 @@ img {
 
 input[type=email] {
     border-radius: 30px;
+    -webkit-border-radius: 30px;
     border: solid 1px hsl(0, 0%, 80%);
     padding: 13px 30px;
     width: 270px;
@@ -90,13 +91,16 @@ input[type=email] {
 
 #btn {
     border-radius: 50px;
+    -webkit-border-radius: 50px;
     background-color: hsl(223, 87%, 63%);
     color: white;
     letter-spacing: .05em;
     padding: 13px 30px;
     margin-left: 15px;
     border-style: none;
+    -webkit-border-style: none;
     box-shadow: 0 3px 10px hsl(223, 100%, 88%);
+    -webkit-box-shadow: 0 3px 10px hsl(223, 100%, 88%);
     transition: linear 200ms;
     cursor: pointer;
     outline: none;
