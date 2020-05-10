@@ -106,6 +106,12 @@ input[type=email] {
     outline: none;
 }
 
+input[type="button"],
+input[type="email"],
+.input-checkbox {
+    -webkit-appearance: none;
+}
+
 #btn:hover {
     background-color: white;
     color: hsl(223, 87%, 63%);
